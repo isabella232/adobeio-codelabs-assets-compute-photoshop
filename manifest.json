@@ -1,6 +1,6 @@
 {
-  "title": "CodeLab title",
-  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-template",
+  "title": "Build AEM Asset Compute Worker with Photoshop API",
+  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-assets-compute-photoshop",
   "navigation": [{
     "title": "Introduction",
     "url": "/README"
@@ -8,10 +8,16 @@
     "title": "Requirements",
     "url": "/lessons/requirements"
   }, {
-    "title": "Lesson 1: Bootstrap your app",
+    "title": "Lesson 1: Create an app from Asset Compute template",
     "url": "/lessons/lesson1"
   }, {
-    "title": "Lesson 2: Write your app",
+    "title": "Lesson 2: Configure the app",
+    "url": "/lessons/lesson2"
+  }, {
+    "title": "Lesson 3: Develop worker calling Photoshop API",
+    "url": "/lessons/lesson3"
+  }, {
+    "title": "Lesson 4: Integrate worker in AEMaaCS",
     "url": "/lessons/lesson2"
   }, {
     "title": "Well done",
