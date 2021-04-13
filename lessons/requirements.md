@@ -19,6 +19,8 @@ If not already done, you should follow the below links to have your environment 
 
 In addition to above pre-requisites, you'll need:
 
-* A
-* B
-* C
+* An AEM as a Cloud Service instance running in your IMS org
+* (Trial) Photoshop API service already provisioned for your org
+* [Understanding the working of a custom application in AEM Assets](https://experienceleague.adobe.com/docs/asset-compute/using/extend/custom-application-internals.html)
+
+[Start lesson 1](lesson1.md)
