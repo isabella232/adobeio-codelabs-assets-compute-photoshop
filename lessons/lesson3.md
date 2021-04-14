@@ -76,9 +76,7 @@ packages:
           require-adobe-auth: true
 ```
 
-Your worker should now be set. Execute the command `aio app run` to test it. You will see the rendition result with a removed background.
-
-(add screenshot here)
+Your worker should now be set. Execute the command `aio app run` to test it. In the development tool UI, select an existing or upload a new test image, define the rendition request and click the Run button. You will see the rendition result with a removed background.
 
 There are various options of other photo magics that you can use to enhance your custom worker, such as [Auto Tone](https://adobe.io/apis/creativecloud/photo-imaging-api/api-demo.html?ref=autotone) and [Photoshop actions](https://adobe.io/apis/creativecloud/photo-imaging-api/api-demo.html?ref=psactions). Be creative!
 
