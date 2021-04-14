@@ -35,9 +35,20 @@ Once all the credentials are properly configured, you can execute the applicatio
 "renditions": [
     {
         "worker": "https://1234-projectA-workspaceB.adobeioruntime.net/api/v1/web/example-custom-worker-0.0.1/worker",
-        "name": "duplicate_rendition.png"
+        "name": "custom_rendition.png"
     }
 ]
 ```
 
-Next lesson: [Generate custom renditions with Photoshop API](lesson3.md)
+Looking at the action code in `actions/<worker-name>/index.js`, you can see what it does is simply copying the source file to generate a new rendition.
+
+```javascript
+const { worker, SourceCorruptError } = require('@adobe/asset-compute-sdk');
+const fs = require('fs').promises;
+
+exports.main = worker(async (source, rendition) => {
+    await fs.copyFile(source.path, rendition.path);
+});
+```
+
+Next lesson: [Generate custom renditions with Photoshop APIs](lesson3.md)
