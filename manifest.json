@@ -3,24 +3,31 @@
   "repository": "https://github.com/AdobeDocs/adobeio-codelabs-assets-compute-photoshop",
   "navigation": [{
     "title": "Introduction",
-    "url": "/README"
+    "url": "/README",
+    "duration": 1
   }, {
     "title": "Requirements",
-    "url": "/lessons/requirements"
+    "url": "/lessons/requirements",
+    "duration": 5
   }, {
     "title": "Lesson 1: Create an app from Asset Compute template",
-    "url": "/lessons/lesson1"
+    "url": "/lessons/lesson1",
+    "duration": 7
   }, {
     "title": "Lesson 2: Configure the app",
-    "url": "/lessons/lesson2"
+    "url": "/lessons/lesson2",
+    "duration": 10
   }, {
     "title": "Lesson 3: Develop worker calling Photoshop API",
-    "url": "/lessons/lesson3"
+    "url": "/lessons/lesson3",
+    "duration": 10
   }, {
     "title": "Lesson 4: Integrate worker in AEMaaCS",
-    "url": "/lessons/lesson2"
+    "url": "/lessons/lesson4",
+    "duration": 5
   }, {
     "title": "Well done",
-    "url": "/lessons/welldone"
+    "url": "/lessons/welldone",
+    "duration": 2
   }]
 }
